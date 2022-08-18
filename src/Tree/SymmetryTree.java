@@ -1,4 +1,4 @@
-package ArrayandString;
+package Tree;
 
 public class SymmetryTree {
 
