@@ -27,8 +27,10 @@ public class HouseRobber {
     public static void main(String[] args) {
         HouseRobber hps = new HouseRobber();
         int[]str = new int[]{4,3,2,1};
+        int[]ly = new int[]{1,2,1,1};
         int[]rob = new int[]{1,2};
         System.out.println(hps.houseRobber(str));
         System.out.println(hps.houseRobber(rob));
+        System.out.println(hps.houseRobber(ly));
     }
 }
